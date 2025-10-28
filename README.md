@@ -31,9 +31,7 @@ This framework provides a practical and data-efficient solution for adapting AI 
 ├── LICENSE             # The MIT License file
 ├── README.md           # This file
 ├── requirements.txt    # Project dependencies
-├── notebooks/
-│   └── skin_disease_classification.ipynb   # Main Colab/Jupyter notebook
-└── saved_models/       # Saved model weights (ignored by git)
+└── skin_disease_classification.ipynb   # Main Colab/Jupyter notebook
 ```
 
 ## 🚀 Getting Started
