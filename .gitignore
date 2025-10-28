@@ -1,0 +1,20 @@
+# Python cache and environment files
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+venv/
+env/
+.venv/
+
+# Data Files - Do NOT upload your dataset
+*.csv
+data/
+images/
+
+# Saved Models - Do NOT upload large model files
+*.pth
+*.h5
+saved_models/
+
+# OS-specific files
+.DS_Store
