@@ -93,6 +93,26 @@ The script will:
 - **ReduceLROnPlateau**: Adaptive learning rate reduction
 - **Early stopping**: Prevents overfitting (patience=5)
 
+## 📊 Results
+
+### Baseline Model Performance
+
+**Overall Accuracy: 71.27%** on PAD-UFES-20 validation set
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| ACK   | 0.76      | 0.79   | 0.77     | 145     |
+| BCC   | 0.74      | 0.71   | 0.73     | 168     |
+| MEL   | 0.75      | 0.60   | 0.67     | 10      |
+| NEV   | 0.77      | 0.75   | 0.76     | 48      |
+| SCC   | 0.36      | 0.44   | 0.40     | 39      |
+| SEK   | 0.75      | 0.72   | 0.73     | 46      |
+
+**Key Findings:**
+- Strong performance on most classes (73-77% F1-score)
+- SCC classification needs improvement (class imbalance issue)
+- MEL has limited validation samples (10 examples)
+
 ## 📊 Configuration
 
 Edit `config.py` to adjust:
